@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:3000"
+  origin: "https://bmp-frontend.herokuapp.com/"
 };
 
 app.use(cors(corsOptions));
